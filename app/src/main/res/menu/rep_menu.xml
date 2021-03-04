@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <item android:title="menu représentant d'entreprise">
+        <menu>
+            <item
+                android:id="@+id/nav_message"
+                android:icon="@drawable/ic_message"
+                android:title="Mes Disponibilités"
+                />
+            <item
+                android:id="@+id/nav_chat"
+                android:icon="@drawable/ic_send"
+                android:title="Nos Sujets" />
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/ic_account"
+                android:title="Disposition des tables" />
+            <item
+                android:id="@+id/nav_deconnexion"
+                android:icon="@drawable/ic_remove"
+                android:title="deconnexion" />
+        </menu>
+    </item>
+
+</menu>

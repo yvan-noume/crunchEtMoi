@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <item android:title="menu administrateur">
+        <menu>
+            <item
+                android:id="@+id/nav_message"
+                android:icon="@drawable/ic_message"
+                android:title="Etudiant"
+                />
+            <item
+                android:id="@+id/nav_chat"
+                android:icon="@drawable/ic_send"
+                android:title="Représentant d'entreprise" />
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/ic_account"
+                android:title="Conférencier" />
+            <item
+                android:icon="@drawable/ic_account"
+                android:title="Planing coach" />
+            <item
+                android:icon="@drawable/ic_account"
+                android:title="Salon des entreprises" />
+            <item
+                android:icon="@drawable/ic_account"
+                android:title="Depot" />
+            <item
+                android:icon="@drawable/ic_account"
+                android:title="Gestion des étudiants" />
+            <item
+                android:id="@+id/nav_deconnexion"
+                android:icon="@drawable/ic_remove"
+                android:title="deconnexion" />
+        </menu>
+    </item>
+
+</menu>

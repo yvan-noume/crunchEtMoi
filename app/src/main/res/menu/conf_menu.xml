@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <item android:title="menu conférencier">
+        <menu>
+
+            <item
+                android:id="@+id/nav_dispo"
+                android:icon="@drawable/ic_send"
+                android:title="Mes Disponibilités" />
+            <item
+                android:id="@+id/nav_mConf"
+                android:icon="@drawable/ic_account"
+                android:title="Mes Conférences" />
+            <item
+                android:id="@+id/nav_deconnexion"
+                android:icon="@drawable/ic_remove"
+                android:title="deconnexion" />
+        </menu>
+    </item>
+
+</menu>

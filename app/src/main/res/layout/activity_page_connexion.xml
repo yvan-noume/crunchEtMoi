@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PageConnexion">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F31F1E22"
+        android:orientation="vertical"
+        android:padding="60dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bienvenue au Crunch 2020"
+            android:textColor="#fff"
+            android:textSize="40sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="Cette application vous permet d'accèder à tous les servicesCrunch et d'interagir entre les differents intervenants.Après vous etre authentifié, vous aurez accès à un certain nombred'outils. En cas de problème vous avez des contacts dans le menu Aide"
+            android:layout_marginTop="15dp"
+            android:justificationMode="inter_word"/>
+
+        <Button
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/buttonsptyleblue"
+            android:text="En savoir plus"
+            android:textColor="#FFFFFF" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_person"
+            android:drawablePadding="10dp"
+            android:hint="login"
+            android:textColorLink="#0F7FD8" />
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_lock"
+            android:drawablePadding="10dp"
+            android:hint="mot de passe"
+            android:inputType="textPassword"
+            android:textColorLink="#0F7FD8" />
+
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="359dp"
+            android:layout_height="48dp"
+            android:entries="@array/division"
+            />
+
+        <Button
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:id="@+id/button"
+            android:layout_width="120dp"
+            android:textColor="#fff"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonsptyleblue"
+            android:text="vailder"
+            android:drawableRight="@drawable/ic_send"
+           android:onClick="displayResult"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+

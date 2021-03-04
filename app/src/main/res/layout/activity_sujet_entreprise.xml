@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sujetEntreprise"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sujet de l'entreprise"
+        android:textSize="25sp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:textColor="#FF64A4D6"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="
+
+Un système temps réel est un un système embarqué qui interagit en permanence avec son environnement (cyber-physical system) tout en devant respecter des contraintes de temps. On peut par exemple citer les systèmes de contrôle dans les voitures (système de freinage, systèmes d'aide à la conduite, etc.) ou les systèmes de contrôle-commande d'avions.
+
+La partie logiciel d'un système temps-réel est composée d'un ensemble de threads exécutés par un système d'exploitation adaptée. Pour garantir le respect des contraintes de temps, les développeurs font une analyse d'ordonnançabilité qui nécessite de 1) estimer le pire temps d'exécution (Worst-Case Execution Time – WCET en anglais) de chaque thread, en isolation, 2) calculer le pire temps de réponse de chaque thread, dans un contexte d'exécution concurrente avec les autres threads, et vérifier qu'il est inférieur à l'échéance imposée pour ce thread.
+"
+        android:justificationMode="inter_word"
+        android:padding="15dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/graphe" />
+
+
+</LinearLayout>

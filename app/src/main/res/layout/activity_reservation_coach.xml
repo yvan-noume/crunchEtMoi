@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".reservationCoach"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="choix du coach"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#FF64A4D6"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="Dévéloppement logiciel"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold"/>
+
+    <Spinner
+        android:layout_width="359dp"
+        android:layout_height="48dp"
+        android:entries="@array/coach"
+        android:layout_marginBottom="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="Dévéloppement Web"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold"/>
+    <Spinner
+        android:layout_width="359dp"
+        android:layout_height="48dp"
+        android:entries="@array/mcoach"
+        android:layout_marginBottom="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="Traitement des images"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold"/>
+    <Spinner
+        android:layout_width="359dp"
+        android:layout_height="48dp"
+        android:entries="@array/mcoach"
+        android:layout_marginBottom="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="Dessin technique"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold"/>
+    <Spinner
+        android:layout_width="359dp"
+        android:layout_height="48dp"
+        android:entries="@array/mcoach"
+        android:layout_marginBottom="20dp"/>
+
+
+    <Button
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:id="@+id/reservation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="valider"
+        android:layout_gravity="center"
+        android:background="#FF64A4D6"/>
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.crunchetmoi">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".disponibiliteCoach"></activity>
+        <activity android:name=".sujetConference" />
+        <activity android:name=".disponibilites" />
+        <activity android:name=".depot" />
+        <activity android:name=".pitch" />
+        <activity android:name=".SalonEntreprise" />
+        <activity android:name=".MesConferences" />
+        <activity android:name=".reservationCoach" />
+        <activity android:name=".PageIntrouvation" />
+        <activity android:name=".OngletNotification" />
+        <activity android:name=".sujetEntreprise" />
+        <activity android:name=".PageConnexion" />
+        <activity android:name=".OngletLoisirs" />
+        <activity android:name=".OngletSujets" />
+        <activity android:name=".OngletEntreprise" />
+        <activity android:name=".pagePrincipaleAdmin" />
+        <activity android:name=".pagePrincipaleRep" />
+        <activity android:name=".pagePrincipaleConf" />
+        <activity android:name=".pagePrincipaleCoach" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

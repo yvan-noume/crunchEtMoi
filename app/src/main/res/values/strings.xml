@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Crunch Et Moi</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_close">close navigation drawer</string>
+    <string name="navigation_drawer_open">open navigation drawer</string>
+    <array name="division">
+        <item>Etudiants</item>
+        <item>Conférencier</item>
+        <item>Coach</item>
+        <item>Representant entreprise</item>
+        <item>Administrateur</item>
+    </array>
+    <array name="coach">
+        <item>Mr Durant</item>
+        <item>Mr Nigro</item>
+        <item>Mr gerard</item>
+        <item>Mr Dupont</item>
+        <item>Mr Jean</item>
+    </array>
+
+    <array name="mcoach">
+        <item></item>
+        <item>Mr Nigro</item>
+        <item>Mr gerard</item>
+        <item>Mr Dupont</item>
+        <item>Mr Jean</item>
+    </array>
+
+</resources>

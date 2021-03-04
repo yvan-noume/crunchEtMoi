@@ -1,0 +1,2 @@
+rootProject.name='CrunchEtMoi'
+include ':app'

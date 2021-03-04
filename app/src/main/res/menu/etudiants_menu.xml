@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <item android:title="menu étudiant">
+        <menu>
+            <item
+                android:id="@+id/nav_message"
+                android:icon="@drawable/ic_message"
+                android:title="Reserver un coach"
+                />
+
+            <item
+                android:id="@+id/nav_oral"
+                android:icon="@drawable/ic_people"
+                android:title="Pitch Oral" >
+
+            </item>
+            <item
+                android:id="@+id/nav_entreprise"
+                android:icon="@drawable/ic_supervisor"
+                android:title="Salon des Entrprises" />
+            <item
+                android:id="@+id/nav_depot"
+                android:icon="@drawable/ic_file_upload"
+                android:title="Dépot" />
+            <item
+                android:id="@+id/nav_deconnexion"
+                android:icon="@drawable/ic_remove"
+                android:title="deconnexion" />
+
+        </menu>
+    </item>
+</menu>
